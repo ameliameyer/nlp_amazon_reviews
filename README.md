@@ -24,7 +24,7 @@ Key Columns:
 ### Most Commons Phrases in 1-star vs 5-star Reviews
 I used CountVectorizer to determine the phrase frequency of 1-star vs 5-star reviews. The resulting bigrams displayed a clear difference Customer Satisfaction level and could point to the common issues consumers found with these products.  
 
-![bigram_ratings](\images\bigram_ratings.png)
+![bigram_ratings](images/bigram_ratings.png)
 
 ### Topic Modeling by Rating
 I lemmatized the review text then processed using LDA to find the most popular themes for each rating category (1 vs 5-stars). 
